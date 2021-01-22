@@ -1,36 +1,43 @@
-<?xml version="1.0"?>
-<!DOCTYPE plist SYSTEM "file://localhost/System/Library/DTDs/PropertyList.dtd">
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-    <dict>
-        <key>items</key>
-        <array>
-            <dict>
-                <key>assets</key>
-                <array>
-                    <dict>
-                        <key>url</key>
-                        <string>https://wanli2333.github.io/ios/app.ipa</string>
- 
-                        <key>kind</key>
-                        <string>software-package</string>
-                    </dict>
-                </array>
- 
-                <key>metadata</key>
+<dict>
+    <key>items</key>
+    <array>
+        <dict>
+            <key>assets</key>
+            <array>
                 <dict>
-                    <key>bundle-identifier</key>
-                    <string>packageName</string>
- 
-                    <key>title</key>
-                    <string>appName</string>
- 
-                    <key>bundle-version</key>
-                    <string>appVersion</string>
- 
                     <key>kind</key>
-                    <string>software</string>
+                    <string>software-package</string>
+                    <key>url</key>
+                    <string>https://wanli2333.github.io/ios/app.ipa</string>
                 </dict>
+                <dict>
+                    <key>kind</key>
+                    <string>display-image</string>
+                    <key>url</key>
+                    <string>https://wanli2333.github.io/icon.png</string>
+                </dict>
+                <dict>
+                    <key>kind</key>
+                    <string>full-size-image</string>
+                    <key>url</key>
+                    <string>https://wanli2333.github.io/icon.png</string>
+                </dict>
+            </array>
+            <key>metadata</key>
+            <dict>
+                <key>bundle-identifier</key>
+                <string>app</string>
+                <key>bundle-version</key>
+                <string>1.0</string>
+                <key>kind</key>
+                <string>software</string>
+                <key>title</key>
+                <string>ss</string>
             </dict>
-        </array>
-    </dict>
+        </dict>
+    </array>
+</dict>
 </plist>
